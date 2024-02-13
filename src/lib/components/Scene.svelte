@@ -46,7 +46,7 @@
 		useLoader(TextureLoader).load(texture2),
 		useLoader(TextureLoader).load(texture3)
 	];
-	let activeTexture = 1;
+	let activeTexture = 0;
 	export function next() {
 		console.log('next');
 		if (activeTexture >= texturesArray.length - 1) {
